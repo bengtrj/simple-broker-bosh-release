@@ -1,0 +1,7 @@
+set -e -x
+
+cp -a morengt-release/* ${BOSH_INSTALL_TARGET}
+
+cd ${BOSH_INSTALL_TARGET}
+
+go install

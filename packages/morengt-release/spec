@@ -1,0 +1,8 @@
+---
+name: morengt-release
+
+dependencies:
+    - golang
+
+files:
+    - ./**/*

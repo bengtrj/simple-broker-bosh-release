@@ -1,0 +1,11 @@
+---
+name: broker
+
+templates:
+    ctl.erb: bin/ctl
+
+packages:
+    - morengt-release
+    - golang
+
+properties: {}
